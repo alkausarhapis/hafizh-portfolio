@@ -19,7 +19,7 @@
     --medium-size: .87rem;
     --tiny-size: .690rem;
     --logo-size: 1rem;
-    --icon-size: 1.5rem;
+    --icon-size: 1rem;
     --beeg-size: 2.5rem;
     --suppa-beeg-size: 3.5rem;
     --opacity: .6;      
@@ -328,7 +328,8 @@ footer {
     :root {
         --medium-size: 1rem;
         --logo-size: 2rem;      
-        --suppa-beeg-size: 4rem;      
+        --suppa-beeg-size: 4rem;
+        --icon-size: 1.5rem;      
     }    
 }
 
