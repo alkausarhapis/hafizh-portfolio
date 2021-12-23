@@ -8,18 +8,18 @@
     --containerwdt: 1000px;
 
     /* Color */
-    --hue: 174;
-    --sat: 63%;
     --baccolor: #F0EEF2;
     --forecolor: #A8A3B2;
     --titlecolor: #7F7888;
+    --shadow-top : 0px -4px 20px rgba(0, 0, 0, 0.2);
+    --shadow-bot : 0px 4px 20px rgba(0, 0, 0, 0.2);
 
     /* Font typography */
     --font: 'Poppins', sans-serif;
     --medium-size: .87rem;
     --tiny-size: .690rem;
     --logo-size: 1rem;
-    --icon-size: 1.25rem;
+    --icon-size: 1rem;
     --beeg-size: 2.5rem;
     --suppa-beeg-size: 3.5rem;
     --opacity: .6;      
@@ -128,12 +128,12 @@ a:hover {
         bottom: 0;
         left: 0;
         background-color: var(--baccolor);
-        box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+        box-shadow: var(--shadow-top);
         width: 100%;
         height: 4rem;
         display: grid;
         align-content: center;
-        border-radius: 1rem 1rem 0 0;
+        border-radius: 1.2rem 1.2rem 0 0;
         transition: .4s;
     }
 }
@@ -309,7 +309,7 @@ footer {
 
 /* Shadow */
 .scroll-header {
-    box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+    box-shadow: var(--shadow-bot);
 }
 
 /* Theme */
