@@ -315,7 +315,7 @@ footer {
 /* Theme */
 .dark-theme {
     --shadow-top : 0px -4px 20px rgba(0, 0, 0, 0.26);
-    --shadow-bot : 0px 4px 20px rgba(0, 0, 0, 0.26);
+    --shadow-bot : 0px 2px 20px rgba(0, 0, 0, 0.26);
     --baccolor: #7F7888;
     --titlecolor: #F0EEF2;
     --forecolor: #b6b3bd;
