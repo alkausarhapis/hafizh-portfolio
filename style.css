@@ -19,7 +19,7 @@
     --medium-size: .87rem;
     --tiny-size: .690rem;
     --logo-size: 1rem;
-    --icon-size: 1rem;
+    --icon-size: 1.3rem;
     --beeg-size: 2.5rem;
     --suppa-beeg-size: 3.5rem;
     --opacity: .6;      
@@ -133,7 +133,7 @@ a:hover {
         height: 4rem;
         display: grid;
         align-content: center;
-        border-radius: 1.3rem 1.3rem 0 0;
+        border-radius: 1.4rem 1.4rem 0 0;
         transition: .4s;
     }
 }
