@@ -201,9 +201,10 @@ a:hover {
     margin-bottom: calc(var(--headerhgt) + 1.5rem);
     display: grid;
     grid-template-areas: 
-    "project1 project2"
-    "project3 project4"
-    ;
+    "project1"
+    "project2"
+    "project3"
+    "project4";
     justify-content: space-between;
 }
 
@@ -376,15 +377,6 @@ footer {
         width: 300px;
     }
 
-    .project {
-        grid-template-areas: 
-        "project1"
-        "project2"
-        "project3"
-        "project4"
-        ;
-    }
-
     .container_logo {
         width: 80vw;
     }
@@ -410,14 +402,6 @@ footer {
         column-gap: 3rem;
     }
     
-    .project {
-        grid-template-areas: 
-        "project1"
-        "project2"
-        "project3"
-        "project4"
-        ;
-    }
 
     .apl_logo {
         font-size: 8rem;
@@ -448,15 +432,6 @@ footer {
     .nav_name {
         font-size: var(--medium-size);
         font-weight: 600;
-    }
-
-    .project {
-        grid-template-areas: 
-        "project1"
-        "project2"
-        "project3"
-        "project4"
-        ;
     }
    
     .section_container {
