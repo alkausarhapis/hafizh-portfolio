@@ -283,6 +283,7 @@ a:hover {
     outline: none;
     border: 1.5px solid var(--titlecolor);
     margin-top: 1rem;
+    resize: vertical;
     color: var(--forecolor);
     font-family: var(--font);
     border-radius: 1rem;
