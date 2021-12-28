@@ -47,7 +47,7 @@ body {
     font-size: var(--medium-size);
     background-color: var(--baccolor);
     color: var(--forecolor);
-    transition: .4s;
+    transition: background-color .4s;
 }
 
 h1 {
@@ -402,7 +402,6 @@ footer {
         column-gap: 3rem;
     }
     
-
     .apl_logo {
         font-size: 8rem;
     }
