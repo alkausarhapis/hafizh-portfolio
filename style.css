@@ -292,6 +292,7 @@ a:hover {
   font-family: var(--font);
   border-radius: 1rem;
   background-color: transparent;
+  overflow-y: hidden;
 }
 
 #textholder::-webkit-input-placeholder {
