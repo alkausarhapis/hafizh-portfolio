@@ -84,7 +84,7 @@ a:hover {
   padding: 4.5rem 0 2rem;
 }
 
-/* Custom Scrollbar */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -285,7 +285,8 @@ a:hover {
   width: 100%;
   padding: 0.8rem;
   outline: none;
-  border: 1.5px solid var(--titlecolor);
+  border: 1.8px solid var(--titlecolor);
+  opacity: var(--opacity);
   margin-top: 1rem;
   resize: vertical;
   color: var(--forecolor);
@@ -293,6 +294,10 @@ a:hover {
   border-radius: 1rem;
   background-color: transparent;
   overflow-y: hidden;
+}
+
+.inputtxt:focus {
+  opacity: 1;
 }
 
 #textholder::-webkit-input-placeholder {
