@@ -14,6 +14,7 @@
   --thumbcolor: #a8a3b273;
   --shadow-top: 0px -4px 20px rgba(0, 0, 0, 0.2);
   --shadow-bot: 0px 2.5px 20px rgba(0, 0, 0, 0.13);
+  --box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 
   /* Font typography */
   --font: "Poppins", sans-serif;
@@ -103,7 +104,6 @@ a:hover {
   max-width: var(--containerwdt);
   margin-left: 2rem;
   margin-right: 2rem;
-  overflow-x: hidden;
 }
 
 /* Nav */
@@ -209,15 +209,23 @@ a:hover {
   justify-content: space-between;
 }
 
-.project_ilust {
-  margin-top: 5rem;
-  width: 380px;
-  height: 180px;
-  background-color: lightgray;
+.src_link:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
-.pointer {
-  cursor: pointer;
+.project_ilust {
+  margin-top: 5rem;
+  width: 450px;
+  height: 210px;
+  background-color: lightgray;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.project-link:hover {
+  opacity: 0.8;
+  transition: 0.2s;
 }
 
 .project_desc {
@@ -250,14 +258,15 @@ a:hover {
 }
 
 .apl_logo {
-  font-size: 6rem;
+  font-size: 8rem;
   margin-top: var(--headerhgt);
 }
 
 .container_logo {
   display: flex;
-  width: 40vw;
-  justify-content: space-between;
+  width: 60vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /* contact */
@@ -368,10 +377,9 @@ footer {
 }
 
 /* Smol device  */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 570px) {
   .project_ilust {
-    width: 300px;
-    height: 150px;
+    height: 170px;
   }
 
   .project_desc {
@@ -382,12 +390,8 @@ footer {
     width: 80vw;
   }
 
-  .apl_logo {
-    font-size: 5rem;
-  }
-
   .project_ilust {
-    width: 100vw;
+    width: 100% !important;
   }
 
   .project_desc {
@@ -400,10 +404,6 @@ footer {
   .nav_list {
     justify-content: center;
     column-gap: 3rem;
-  }
-
-  .apl_logo {
-    font-size: 8rem;
   }
 }
 
