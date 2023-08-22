@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -89,10 +90,10 @@
             </div>
 
             <div class="nav_soc">
-                <a href="https://github.com/HapisPro" target="_blank" class="icon_link none">
-                    <i class='bx bxl-github '></i></a>
-                <a href="https://twitter.com/alkausarhapis" target="_blank" class="icon_link none">
-                    <i class='bx bxl-twitter '></i></a>
+                <a href="https://github.com/alkausarhapis" target="_blank" class="icon_link none">
+                    <i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com/in/alkausarhapis" target="_blank" class="icon_link none">
+                    <i class='bx bxl-linkedin-square '></i></a>
                 <a href="https://www.instagram.com/alkausarhapis/" target="_blank" class="icon_link none">
                     <i class='bx bxl-instagram '></i></a>
                 <i class='bx bxs-moon icon_link' id="theme-button"></i>
@@ -108,61 +109,111 @@
             <div class="title">
                 <h1>Hello!!</h1>
                 <h1 class="margin_min">I'm Hafizh.</h1>
-                <h4 class="subtitle_lpg">Web developer | Student | Tech enthusiast</h4>
+                <h4 class="subtitle_lpg">Junior web developer | Student | Tech enthusiast</h4>
             </div>
 
             <!-- Project -->
             <section class="section_container" id="project">
                 <h1>My Project</h1>
-                <div class="project">
 
-                    <div class="project_one">
-                        <a class="project-link" target="_blank" href="https://landing-sass-hapis.netlify.app/">
-                            <img src="./img/landingpage-sass.png" alt="landingpage-sass" class="project_ilust ">
-                        </a>
-                        <a class="src_link" target="_blank" href="https://github.com/HapisPro/LandingPage-Sass">
-                            <h2>Landing Page</h2>
-                        </a>
-                        <p class="project_desc">
-                            A simple landing page website using Sass and Bootstrap 5. (Design by Freepik)
-                        </p>
-                    </div>
+                <div class="container-slide swiper">
+                    <div class="slide-container">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-box">
+                                    <img src="img/projects/appemas.png" alt="">
+                                </div>
+                                <div class="project-details">
+                                    <div class="project-desc">
+                                        <h2><a href="https://github.com/alkausarhapis/ukk_hafizh_alkautsar"
+                                                target="_blank">Appemas</a></h2>
+                                        <p>
+                                            Appemas is a website used for making reports about damage to public
+                                            facilities.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="project_two">
-                        <a class="project-link" target="_blank" href="https://github.com/HapisPro/FormRegistrasi">
-                            <img src="./img/formregistrasi.png" alt="formregistrasi" class="project_ilust ">
-                        </a>
-                        <a class="src_link" target="_blank" href="https://github.com/HapisPro/FormRegistrasi">
-                            <h2>Form Registrasi</h2>
-                        </a>
-                        <p class="project_desc">
-                            Source code of the registration form web using PHP, JavaScript, & MySQL. Please consider to
-                            give a star :D
-                        </p>
-                    </div>
+                            <div class="card swiper-slide">
+                                <div class="image-box">
+                                    <img src="img/projects/sinigeh.png" alt="">
+                                </div>
+                                <div class="project-details">
+                                    <div class="project-desc">
+                                        <h2><a href="https://alkausarhapis.github.io/sinigeh-beta/"
+                                                target="_blank">Sinigeh</a></h2>
+                                        <p>
+                                            Sinigeh is a Blog that contains information about culture and tourism in
+                                            Lampung.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="project_three">
-                        <a class="project-link" target="_blank"
-                            href="https://www.figma.com/file/H7U1hKZa8brq75Q0V6oIDU/Travel-Web">
-                            <img src="./img/travelguide.png" alt="travelguide" class="project_ilust ">
-                        </a>
-                        <a class="src_link" target="_blank"
-                            href="https://www.figma.com/file/H7U1hKZa8brq75Q0V6oIDU/Travel-Web">
-                            <h2>Travel Guide</h2>
-                        </a>
-                        <p class="project_desc">
-                            Travel guide website prototype designed in Figma. The website expected soon.
-                        </p>
-                    </div>
+                            <div class="card swiper-slide">
+                                <div class="image-box">
+                                    <img src="img/projects/travelguide.png" alt="">
+                                </div>
+                                <div class="project-details">
+                                    <div class="project-desc">
+                                        <h2><a href="https://www.figma.com/file/H7U1hKZa8brq75Q0V6oIDU/Travel-Web"
+                                                target="_blank">Travel Guide</a></h2>
+                                        <p>
+                                            Travel guide website prototype designed in Figma. The website expected soon.
+                                            (perhaps)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="project_four">
-                        <img src="./img/comingsoon.png" alt="comingsoon" class="project_ilust ">
-                        <h2>Coming Soon</h2>
-                        <p class="project_desc">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempore
-                            fugiat.
-                        </p>
+                            <div class="card swiper-slide">
+                                <div class="image-box">
+                                    <img src="img/projects/tekkan.png" alt="">
+                                </div>
+                                <div class="project-details">
+                                    <div class="project-desc">
+                                        <h2><a href="https://tekkkan.wordpress.com/" target="_blank">Tekkan</a></h2>
+                                        <p>
+                                            Tekkan is a Blog with content featuring articles related to Technology
+                                            and Education.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-box">
+                                    <img src="img/projects/generall.png" alt="">
+                                </div>
+                                <div class="project-details">
+                                    <div class="project-desc">
+                                        <h2><a href="https://gegenerall.wordpress.com/" target="_blank">GenerAll</a>
+                                        </h2>
+                                        <p>
+                                            GenerAll is a Blog with content featuring articles related to general
+                                            topics.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-box">
+                                    <img src="img/projects/abandonprojek.gif" alt="">
+                                </div>
+                                <div class="project-details">
+                                    <div class="project-desc">
+                                        <h2><a href="">Abandoned</a></h2>
+                                        <p>
+                                            There are more projects on my GitHub that I abandoned due to my laziness :D
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 
@@ -171,23 +222,61 @@
             <section class="section_container" id="about">
                 <h1>About me</h1>
                 <p class="about_desc">
-                    Hi! My name is M. Hafizh Al Kautsar, you can call me Hafizh. I'm a junior Front-End Web Developer
-                    and a student who's studying at a vocational school in Lampung, Indonesia. As a Front-End Web
-                    Developer, I used to code websites from scratch. I love a simple, minimalist, clean, and modern
-                    design style. Also, I'll always update this website, so if you have any suggestions, just hit me up!
+                    Hi there! I'm M. Hafizh Al Kautsar; you can call me Hapis. I am a software engineering student who's
+                    interested in software design and web development. Passionate about making UI/UX designs and
+                    building websites using various frameworks. My goal is to become a full-stack web developer so that
+                    I will not end up being jobless XD.
                 </p>
-
-                <h2 class="skills_title">My skills</h2>
-
-                <ul class="container_logo">
-                    <li><i class='bx bxl-html5 apl_logo' title="html"></i></li>
-                    <li><i class='bx bxl-css3 apl_logo' title="css"></i></li>
-                    <li><i class='bx bxl-javascript apl_logo' title="javascript"></i></li>
-                    <li><i class='bx bxl-sass apl_logo' title="sass"></i></li>
-                    <li><i class='bx bxl-bootstrap apl_logo' title="bootstrap5"></i></li>
-                    <li><i class='bx bxl-figma apl_logo' title="figma"></i></li>
-                </ul>
             </section>
+        </div>
+
+        <div class="tools-section">
+            <div class="container">
+                <h2 class="text-center">Tools and Languages</h2>
+
+                <div class="container-icons">
+                    <div class="img-tools">
+                        <img src="img/icons/html.png" alt="html">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/css.png" alt="css">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/js.png" alt="js">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/laravel.png" alt="laravel">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/php.png" alt="php">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/bootstrap.png" alt="bootstrap">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/codeigniter.png" alt="codeigniter">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/figma.png" alt="figma">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/sass.png" alt="sass">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/mysql.png" alt="mysql">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/java.png" alt="java">
+                    </div>
+                    <div class="img-tools">
+                        <img src="img/icons/wordpress.png" alt="wordpress">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
 
             <!-- Contact -->
             <section class="section_container contact" id="contact">
@@ -230,9 +319,11 @@
             </footer>
 
         </div>
+        </div>
     </main>
 
-    <script src="script.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
