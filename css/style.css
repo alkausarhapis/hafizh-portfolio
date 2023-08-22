@@ -120,7 +120,7 @@ a:hover {
 }
 
 .nav_logo {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -382,7 +382,7 @@ footer {
 @media screen and (max-width: 570px) {
   :root {
     --beeg-size: 1.7rem;
-    --icon-size: 1.5rem;
+    --icon-size: 1.1rem;
   }
   .img-tools {
     margin: 1rem;
