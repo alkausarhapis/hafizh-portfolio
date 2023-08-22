@@ -382,7 +382,7 @@ footer {
 @media screen and (max-width: 570px) {
   :root {
     --beeg-size: 1.7rem;
-    --icon-size: 1.1rem;
+    --icon-size: 1.3rem;
   }
   .img-tools {
     margin: 1rem;
