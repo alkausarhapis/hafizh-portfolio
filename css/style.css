@@ -120,7 +120,7 @@ a:hover {
 }
 
 .nav_logo {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -258,6 +258,7 @@ a:hover {
 /* About */
 .about_desc {
   margin-top: var(--headerhgt);
+  text-align: justify;
 }
 
 .tools-section {
